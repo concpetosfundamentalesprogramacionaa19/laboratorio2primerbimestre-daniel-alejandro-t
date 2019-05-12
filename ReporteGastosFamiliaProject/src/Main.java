@@ -110,7 +110,7 @@ public class Main {
                 gastosSalidas[contHijosIngresados] = entrada.nextDouble();
 
                 // Suma los los gastos a los valores totales
-                gastosTotalesBar[contFamiIngresadas]        += gastosBar[contHijosIngresados];      // TODO: NO esta sumando correctamente
+                gastosTotalesBar[contFamiIngresadas]        += gastosBar[contHijosIngresados];
                 gastosTotalesPasajes[contFamiIngresadas]    += gastosPasajes[contHijosIngresados];
                 gastosTotalesSalidas[contFamiIngresadas]    += gastosSalidas[contHijosIngresados];
             }
@@ -125,6 +125,7 @@ public class Main {
         for(int contFamiIngresadas = 0; contFamiIngresadas < numReportes; contFamiIngresadas++){
             System.out.println( "Reporte " + (contFamiIngresadas+1) + "\n \n" +
                                 "Nombre del Padre de Familia: " + nombres[contFamiIngresadas] + " " + apellidos[contFamiIngresadas] + "\n" +
+                                "Sueldo semanal: " + sueldoSemanal[contFamiIngresadas] + "$" + "\n" +
                                 "Número de Hijos: " + numHijos[contFamiIngresadas] + "");
 
             System.out.println("Reporte de gastos:");
@@ -133,7 +134,7 @@ public class Main {
             for (int contHijosIngresados = 0; contHijosIngresados < numHijos[contFamiIngresadas]; contHijosIngresados++){
                 System.out.println( "Hijo " + (contHijosIngresados+1) + "\t\t" + gastosPasajes[contHijosIngresados] + "\t\t" + gastosBar[contHijosIngresados] + "\t\t" +gastosSalidas[contHijosIngresados]);
             }
-            // TODO: Cambiar a printf para poder ajustar el # de decimales, ademas hacer 2 tabulaciones
+
             System.out.printf("Totales:\t\t%.2f\t\t%.2f\t\t%.2f\n", gastosTotalesPasajes[contFamiIngresadas], gastosTotalesBar[contFamiIngresadas], gastosTotalesSalidas[contFamiIngresadas]);
             // System.out.println("Totales" + "\t" + gastosTotalesPasajes[contFamiIngresadas] + "\t" + gastosTotalesBar[contFamiIngresadas] + gastosTotalesSalidas[contFamiIngresadas]);
 
@@ -142,20 +143,14 @@ public class Main {
 
             // Imprime el texto especifico para cada caso
             if (gastosTotales[contFamiIngresadas] > sueldoSemanal[contFamiIngresadas]){         // Si los gastos son mayores que los ingresos
-                // TODO: Cambiar a printf para poder ajustar el # de decimales en las 3 condiciones
                 System.out.printf("El padre de familia %s le faltan %.2f$ para sus gastos.", nombres[contFamiIngresadas], balance);
-                //System.out.println("El padre de familia " + nombres[contFamiIngresadas] + " le falta " + balance + "$ para sus gastos.");
             }else if (gastosTotales[contFamiIngresadas] < sueldoSemanal[contFamiIngresadas]){   // Si los ingresos son mayores que los gastos
                 System.out.printf("El padre de familia %s puede cubrir sus gastos y le sobran %.2f$.", nombres[contFamiIngresadas], balance);
-                //System.out.println("El padre de familia " + nombres[contFamiIngresadas] + " , puede cubrir sus gastos y le sobran " + balance + " $.");
             }else{      // Si no significa que los gastos son iguales que los ingresos, por lo tanto...
                 System.out.printf("El padre de familia tiene los ingresos justos para cubrir sus gastos");
-                //System.out.println("El padre de familia " + nombres[contFamiIngresadas] + " tienen los ingresos justos para cubrir sus gastos. ");
             }
 
-            System.out.println("Fin del reporte " + (contFamiIngresadas+1) + "\n\n");
+            System.out.println("\nFin del reporte " + (contFamiIngresadas+1) + "\n\n");
         }
-        // TODO: Revisar si esta haciendo bien los calculos totales
-
     }
 }

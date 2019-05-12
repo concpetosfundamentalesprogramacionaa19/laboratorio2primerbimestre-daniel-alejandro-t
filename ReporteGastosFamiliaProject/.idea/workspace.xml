@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96d1761a-d4a4-4d95-85d1-0c0b7bac9ba9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ReporteGastosFamiliaProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ReporteGastosFamiliaProject/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ReporteGastosFamiliaProject/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,13 +21,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="160" column="1" lean-forward="true" selection-start-line="160" selection-start-column="1" selection-end-line="160" selection-end-column="1" />
+            <state relative-caret-position="394">
+              <caret line="152" column="87" lean-forward="true" selection-start-line="152" selection-start-column="87" selection-end-line="152" selection-end-column="87" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>hijo</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -59,6 +66,7 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -110,11 +118,12 @@
       <workItem from="1557580061664" duration="9515000" />
       <workItem from="1557601411516" duration="4894000" />
       <workItem from="1557669836132" duration="19854000" />
+      <workItem from="1557700035423" duration="1083000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43955000" />
+    <option name="totallyTimeSpent" value="45038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1375" y="8" width="1348" height="751" extended-state="6" />
@@ -129,7 +138,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" x="824" y="34" width="531" height="723" id="Run" order="2" type="WINDOWED" weight="0.32954547" />
+      <window_info anchor="bottom" x="687" y="34" width="668" height="723" id="Run" order="2" type="WINDOWED" weight="0.32954547" />
       <window_info anchor="bottom" x="687" y="34" width="668" height="723" id="Debug" order="3" type="WINDOWED" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -157,8 +166,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="160" column="1" lean-forward="true" selection-start-line="160" selection-start-column="1" selection-end-line="160" selection-end-column="1" />
+        <state relative-caret-position="394">
+          <caret line="152" column="87" lean-forward="true" selection-start-line="152" selection-start-column="87" selection-end-line="152" selection-end-column="87" />
         </state>
       </provider>
     </entry>
